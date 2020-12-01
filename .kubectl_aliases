@@ -805,3 +805,5 @@ alias kgdepwslowiden='kubectl get deployment --watch --show-labels -o=wide --nam
 
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }      # Print the full command before running it
 
+alias kcgc="kubectl config get-contexts"
+alias kcuc="kubectl config use-context"
