@@ -807,4 +807,4 @@ function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }      # Print 
 
 alias kcgc="kubectl config get-contexts"
 alias kcuc="kubectl config use-context"
-function kcunset() { kubectl config unset clusters.${1}; kubectl config unset users.${1}; kubectl config unset contexts.${1} }
+function kcunset() { kubectl config unset clusters.${1}; kubectl config unset users.${1}; kubectl config unset contexts.${1}; }
